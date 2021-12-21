@@ -14,14 +14,14 @@ display: flex;
 `;
 
 const PriceItem = styled.div`
-  background-color: black;
+  background-color: ${props => props.theme.cardBgColor};
   border-radius: 15px;
   padding-left: 10px;
   padding-top: 10px;
   height: 30px;
   width: 100%;
   margin-top: 20px;
-  color: whitesmoke;;
+  color: ${props => props.theme.textColor};
   span {
     align-items: center;
     justify-content: center;
